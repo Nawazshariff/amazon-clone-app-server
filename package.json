@@ -1,0 +1,32 @@
+{
+  "name": "amazon-clone-app-server",
+  "version": "1.0.0",
+  "description": "a server to interact with e-commerce built for purchasing books",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack-dev-server --config webpack.config.js",
+    "build:prod": "webpack --config webpack.config.js",
+    "serve": "nodemon ./dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "nodemon": "^2.0.6",
+    "nodemon-webpack-plugin": "^4.3.2",
+    "webpack": "^4.45.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.1",
+    "webpack-node-externals": "^2.5.2"
+  }
+}

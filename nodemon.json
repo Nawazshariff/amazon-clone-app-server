@@ -1,0 +1,5 @@
+{
+    "env":{
+        "DB_URL":"mongodb+srv://nawazshariff:Nawaz@2260$$@amazon-book-store.eztiv.mongodb.net/amazon-book-store?retryWrites=true&w=majority"
+    }
+}
